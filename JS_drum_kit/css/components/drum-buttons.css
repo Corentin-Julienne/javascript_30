@@ -1,0 +1,39 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   drum-buttons.css                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/07/06 14:47:52 by cjulienn          #+#    #+#             */
+/*   Updated: 2021/07/07 15:17:24 by cjulienn         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+.key {
+	color: #ffc600;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-style: solid;
+	text-align: center;
+	padding: 5px;
+	width: 48px;
+	height: 48px;
+	border-radius: 16px;
+	transition: 0.3s;
+}
+
+.key:hover {
+	transform: scale(1.1);
+}
+
+.playing {
+	color: #8e1533;
+}
+
+kbd {
+	font-size: 24px;
+}
